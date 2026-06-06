@@ -23,7 +23,7 @@ A touch-based world clock for the **ESP32-2432S028 ("Cheap Yellow Display")** th
 
 - **ESP32-2432S028** (sometimes called CYD — "Cheap Yellow Display"). 320×240 ILI9341 LCD with XPT2046 resistive touch. Widely available on AliExpress / Amazon for ~$10.
 - USB-C or micro-USB cable (depends on which CYD variant you have).
-- No other components needed.
+- For power, I used a TP4056 to charge and discharge a Li-ion battery. You may choose any power source you have to power the device up.
 
 This sketch uses landscape orientation (`rotation 6`) and the touch driver is calibrated for that orientation.
 
